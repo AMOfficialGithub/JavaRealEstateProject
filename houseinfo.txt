@@ -1,0 +1,30 @@
+House1:$799,900:5:3:Westlands,NV:Yes:Three stories, brick finish
+House2:$545,500:5:3:Westlands,NV:Yes:Large colonial-influenced home
+House3:$315,500:4:3:Westlands,NV:Yes:Grand entryway, three stories
+House4:$599,900:4:3:Westlands,NV:No:Three-car garage, Spanish-style
+House5:$299,900:2:2:Westlands,NV:No:Large living room
+House6:$369,900:3:2:Westlands,NV:No:Large second story
+House7:$699,900:5:3:Westlands,NV:Yes:Tower-style reading room, three-car garage
+House8:$445,900:4:3:Westlands,NV:No:Large home, spacious rooms
+House9:$224,500:4:2:Westlands,NV:No:Quaint home, separate garage
+House10:$209,900:3:2:WestHartford,NV:No:Country home, red finish
+House11:$249,900:4:2:WestHartford,NV:Yes:Large yard and driveway
+House12:$170,615:3:1:WestHartford,NV:Yes:Small house, covered driveway
+House13:$245,000:3:2:WestHartford,NV:No:Dual Garage attached to house
+House14:$219,900:3:3:WestHartford,NV:No:Large driveway, surprisingly spacious
+House15:$189,900:3:1:WestHartford,NV:Yes:Small town home, good location
+House16:$199,900:4:3:WestHartford,NV:No:Two story, covered entryway
+House17:$144,900:3:1:WestHartford,NV:Yes:Large backyard
+House18:$284,900:4:2:Westhartford,NV:Yes:Spacious two story w/ garden
+House19:$445,900:2:2:Ellington,NV:Yes:Glass walls, open air vibe
+House20:$699,900:3:2:Ellington,NV:Yes:Modern art
+House21:$399,900:3:2:Ellington,NV:No:Semi-circular design w/ nice patio
+House22:$214,900:2:1:Ellington,NV:Yes:Geo-dome
+House23:$399,900:4:2:Ellington,NV:No:Pink room attached to two-story
+House24:$1,099,900:5:3:Vernon,NV:Yes:Luxurious home w/ pool
+House25:$199,900:2:1:Vernon,NV:Yes:Diamond in rough
+House26:$799,900:4:3:Vernon,NV:Yes:Futuristic pad
+House27:$895,900:3:3:Vernon,NV:Yes:Artsy roof and magnificent front patio
+House28:$124,900:1:1:Vernon,NV:No:Small glass house with basement
+House29:$279,900:2:2:Vernon,NV:Yes:Glamourous Kitchenaire
+
