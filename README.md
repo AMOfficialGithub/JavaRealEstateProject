@@ -1,2 +1,2 @@
-# Java-Projects
-A Collection of Java Projects from Inheritance, Polymorphism, Arrays, Multidimensional Arrays, Try-Catch, Throw Errors 
+# Java-Project
+This Respitory contains the Real Estate Application. Package file is for Blue-J and can be ran without the Blue-j configuration file. 
