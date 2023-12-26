@@ -1,5 +1,6 @@
 //This is the Main Driver Class
 
+import io.github.pixee.security.BoundedLineReader;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.geometry.HPos;
@@ -272,7 +273,7 @@ public class RealEstate extends Application {
 
         String currentLine;
 
-        while((currentLine = reader.readLine()) != null) {
+        while((currentLine = BoundedLineReader.readLine(reader, 5_000_000)) != null) {
             String trimmedLine = currentLine.trim();
             if(trimmedLine.equals(selectedLine)) continue;
             writer.write(currentLine + System.getProperty("line.separator"));
@@ -315,7 +316,7 @@ public class RealEstate extends Application {
         BufferedReader reader = new BufferedReader(file); //sent as parameter to buffer reader
 
         //Reading From File
-        String line = reader.readLine(); //Keeps reading line after line. Returns null if no text.
+        String line = BoundedLineReader.readLine(reader, 5_000_000); //Keeps reading line after line. Returns null if no text.
 
         while (line != null && line.length()>1) {
             String[] properties = line.split(":");
@@ -364,7 +365,7 @@ public class RealEstate extends Application {
                     listView.getItems().add(line);
 
             }
-            line = reader.readLine();
+            line = BoundedLineReader.readLine(reader, 5_000_000);
         }
         reader.close();
     }
