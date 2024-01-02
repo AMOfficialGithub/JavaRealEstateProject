@@ -269,7 +269,7 @@ public class RealEstate extends Application {
         File tempFile = new File("myTempFile.txt");
 
         BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-        BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
+        BufferedWriter writer = Files.newBufferedWriter(tempFile.toPath());
 
         String currentLine;
 
